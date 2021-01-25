@@ -1,0 +1,1 @@
+- API Que recebe um login e uma senha e retorna true ou false se esse login é valido
