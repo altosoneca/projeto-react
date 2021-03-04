@@ -5,7 +5,8 @@ html,body {
   height:100%;
   width:100%;
   margin:0;
-  background-color: #6495ED;
+  background-color: #D4DF9E;
+  overflow:hidden;
 }
 
 .container-login{
@@ -14,6 +15,11 @@ html,body {
   justify-content: center;
   align-items:center;
   height: 100vh;
+}
+
+.container-login-img{
+  display: flex;
+  background-color: darkblue;
 }
 
 .card-login{
