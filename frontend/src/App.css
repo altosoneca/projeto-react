@@ -7,7 +7,9 @@ html,body {
   margin:0;
   background-color: #D4DF9E;
   overflow:hidden;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 .container-login{
   display: flex;
@@ -17,41 +19,56 @@ html,body {
   height: 100vh;
 }
 
+.header-login{
+  color:#30321c;
+}
+.input-login{
+  padding:1.5rem 0.75rem !important;
+  background-color: #D4DF9E;
+  border:1px solid #30321c;
+  box-shadow: none  !important;
+}
+.input-login::placeholder{
+  color: #6b654b;
+}
+
+.input-login:focus{
+  background-color: #D4DF9E;
+  border:1px solid #30321c;
+}
+
 .container-login-img{
   display: flex;
   background-color: darkblue;
 }
 
-.card-login{
-  width: 50%;
-}
-
-.card-body-login{
-  display: flex;
-  align-self: center;
-  align-items:center;
-  justify-content: center;
-  width: 75%;
-}
 .form-login{
-  width: 75%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 .button-login{
   color: #fff;
   font-size: 16px;
-  background: #fc6963;
+  background: #30321c;
   height: 56px;
   border: 0;
   border-radius: 5px;
+}
+.button-login:hover{
+  background: #6b654b;
+}
+.button-login:focus{
+  background: #6b654b;
+  box-shadow: none  !important;
+}
+.button-login:target{
+  background: #6b654b;
 }
 
 
 
 @media only screen and (max-width: 768px) {
-  .card-login{
-    width: 100%;
-  }
+
 }
 
