@@ -1,0 +1,2 @@
+-tela de registro ( quase igual a de login)
+-tela de esquecer senhar
